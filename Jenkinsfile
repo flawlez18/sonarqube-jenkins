@@ -10,7 +10,7 @@ pipeline {
         
         stage('fetch code') {
             steps {
-                git branch: 'main', url: https://github.com/flawlez18/sonarqube-jenkins.git'
+                git branch: 'main', url: 'https://github.com/flawlez18/sonarqube-jenkins.git'
             }
         }
 
